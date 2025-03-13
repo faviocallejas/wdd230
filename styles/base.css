@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+header {
+        background-color: #243d68;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        margin: 0 auto;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+.myPhoto {
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 3));
+}
+.name {
+    font-size: 2rem;
+    font-family: "Rock Salt", cursive;
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 3));
+    color: #bbb;
+    margin: 0 auto;
+}
+main {
+    margin: 0 auto;
+}
+.columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+h1 {
+    font-weight: 100, bold;
+    font-size:2rem;
+}
+nav {
+    background-color: #36454f;
+    margin: 0 auto;
+    max-width: auto;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0 auto;
+}
+nav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    margin: 0 auto;
+}
+nav a:hover {
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-decoration: overline;
+}
+.active {
+    color: #bbb;
+}
+.card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    margin: 20px;
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 3));
+    width: 50%;
+}
+h2 {
+    font-weight: 100;
+    font-size: 1.5rem;
+    color: white;
+    margin: 0 auto;
+    background-color: #243d68;
+}
+footer {
+    background-color: #243d68;
+    margin: 20px;
+    padding: 10px;
+}
+.footYear {
+    color: white;
+    padding: 10px;
+}
+.footName {
+    color: white;
+    padding: 10px;
+}
+
+
+
+
+
+
+
