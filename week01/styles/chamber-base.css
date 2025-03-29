@@ -7,12 +7,31 @@ body {
     font-family: "Quicksand", sans-serif;
 }
 header {
-    background-color: #B17F59;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-image: linear-gradient(rgba(223, 189, 169, 0.7), rgba(223, 189, 169, 0.7)),
+    url(https://upload.wikimedia.org/wikipedia/commons/8/89/Santa_cruz_skyline_48.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    /* grid-column-gap: 0px;
+    grid-row-gap: 0px; */
+    /* align-items: center;
+    justify-content: center; */
     padding: 10px;
     margin: 0 auto;
+}
+.SCdepartment {
+    grid-area: 1 / 2 / 5 / 3;
+}
+.title {
+    grid-area: 2 / 3 / 3 / 6;
+}
+.subtitle {
+    grid-area: 3 / 3 / 5 / 6;
+    font-weight: 100, bold;
+    font-size: 80px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 nav {
     display: flex;
@@ -27,13 +46,13 @@ nav ul {
 nav a {
     display: block;
     justify-content: center;
-    color: #000033;
+    color: #332d2b;
     text-align: center;
     padding: 1rem;
     text-decoration: none;
     margin: 0 auto;
     font-weight: 100, bold;
-    font-size: 20px;
+    font-size: 25px;
 }
 nav a:hover {
     background-color: #C1CFA1;
@@ -54,8 +73,8 @@ h2 {
     display: block;
     font-weight: 100, bold;
     font-size: 1.5rem;
-    background-color: #B17F59;
-    color: #000033;
+    background-color: hsl(26, 62%, 67%);
+    color: #46403e;
     margin: 60px;
     padding: 10px;
     margin-bottom: 0;
@@ -64,6 +83,12 @@ h2 {
 .columns {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+.sites {
+    color: #22201f;
+}
+h2:hover {
+    background-color: hsl(26, 78%, 79%);
 }
 .words {
     margin: 60px;

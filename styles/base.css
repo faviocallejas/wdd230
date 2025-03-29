@@ -91,7 +91,14 @@ footer {
     color: white;
     padding: 10px;
 }
-
+.footModification {
+    color: #f3e6e4;
+    padding: 9px;
+}
+.modified {
+    color: #f3e6e4;
+    padding: 9px;
+}
 
 
 
